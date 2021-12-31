@@ -1,0 +1,24 @@
+body{
+    background: url("./src/Background_Foto.png")  no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 10rem;
+    color: white;
+    letter-spacing: 1.5rem;
+    font-family:  'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
